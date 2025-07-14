@@ -65,7 +65,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <shiro.version>1.4.0</shiro.version>
+        <shiro.version>2.0.5</shiro.version>
     </properties>
 
     <dependencies>
@@ -73,7 +73,7 @@
         <dependency>
             <groupId>org.telegram</groupId>
             <artifactId>telegrambots</artifactId>
-            <version>4.1.2</version>
+            <version>6.9.7.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-core -->
@@ -220,7 +220,7 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <DependencyConvergence />
+                        <DependencyConvergence/>
                     </rules>
                 </configuration>
             </plugin>
